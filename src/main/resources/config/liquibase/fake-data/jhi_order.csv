@@ -1,0 +1,11 @@
+id;placed_date;status;code;user_id;customer_id
+1;2021-08-16;PREPARED;input synthesize Orchestrator;1;1
+2;2021-08-16;PENDING;Franc;2;2
+3;2021-08-16;CANCELLED;Borders target Cambridgeshire;1;1
+4;2021-08-16;PREPARED;HDD;2;2
+5;2021-08-16;DELIVERED;Pike Tools Account;1;1
+6;2021-08-16;PENDING;Slovenia Cotton;1;1
+7;2021-08-16;DELIVERED;Virginia Finland;1;1
+8;2021-08-16;DELIVERED;Direct overriding web-enabled;2;2
+9;2021-08-16;PENDING;Awesome initiative tan;1;2
+10;2021-08-16;DELIVERED;Regional;2;2
