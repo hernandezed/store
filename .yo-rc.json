@@ -43,7 +43,9 @@
     "devServerPort": 9060,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Product", "ProductCategory", "Customer", "Order", "OrderItem", "Invoice"],
+    "lastLiquibaseTimestamp": 1629151696000
   },
   "git-provider": "GitHub",
   "git-company": "hernandezed",
