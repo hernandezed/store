@@ -1,0 +1,62 @@
+{
+  "name": "Order",
+  "fields": [
+    {
+      "fieldName": "placedDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "OrderStatus",
+      "fieldValues": "DELIVERED,PREPARED,PENDING,CANCELLED",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "invoice",
+      "otherEntityRelationshipName": "order",
+      "relationshipName": "invoiceId",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "orderItem",
+      "otherEntityRelationshipName": "order",
+      "relationshipName": "orderItem"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "order",
+      "relationshipValidateRules": "required",
+      "relationshipName": "user",
+      "otherEntityField": "login"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "order",
+      "relationshipValidateRules": "required",
+      "relationshipName": "customer",
+      "otherEntityField": "id"
+    }
+  ],
+  "entityTableName": "jhi_order",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["store"],
+  "changelogDate": "20210816220521"
+}
