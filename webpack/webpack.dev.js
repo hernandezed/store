@@ -17,7 +17,7 @@ module.exports = options =>
     mode: ENV,
     entry: ['./src/main/webapp/app/index'],
     output: {
-      path: utils.root('target/classes/static/'),
+      path: utils.root('build/resources/main/static/'),
       filename: 'app/[name].bundle.js',
       chunkFilename: 'app/[id].chunk.js',
     },
@@ -43,7 +43,7 @@ module.exports = options =>
     devServer: {
       stats: options.stats,
       hot: true,
-      contentBase: './target/classes/static/',
+      contentBase: './build/resources/main/static/',
       port: 9060,
       proxy: [
         {

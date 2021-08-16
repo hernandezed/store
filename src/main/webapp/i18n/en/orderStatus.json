@@ -1,0 +1,11 @@
+{
+  "storeApp": {
+    "OrderStatus": {
+      "null": "",
+      "DELIVERED": "DELIVERED",
+      "PREPARED": "PREPARED",
+      "PENDING": "PENDING",
+      "CANCELLED": "CANCELLED"
+    }
+  }
+}
