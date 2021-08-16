@@ -1,0 +1,11 @@
+id;placed_date;status;code;invoice_id;user_id;customer_id
+1;2021-08-16;PREPARED;input synthesize Orchestrator;57039;1;1
+2;2021-08-16;DELIVERED;salmon Legacy Berkshire;48734;2;2
+3;2021-08-16;PREPARED;Auto Salad open-source;87119;1;1
+4;2021-08-16;PENDING;Tools Account;70320;2;2
+5;2021-08-16;PREPARED;online deliverables;14754;1;1
+6;2021-08-16;PENDING;Global deposit solid;38593;1;1
+7;2021-08-16;DELIVERED;web-enabled Oro Awesome;30351;1;1
+8;2021-08-16;PREPARED;Bedfordshire;9978;2;2
+9;2021-08-16;CANCELLED;Table impactful;73672;1;2
+10;2021-08-16;PENDING;Lead RSS channels;61507;2;2
