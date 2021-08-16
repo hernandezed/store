@@ -1,0 +1,11 @@
+id;name;description;quantity_per_package;price;image;image_content_type;stock;status
+1;Steel;Assistant;57374;81236;../fake-data/blob/hipster.png;image/png;38757;AVAILABLE
+2;Consultant wireless Computer;reboot magenta THX;6602;88209;../fake-data/blob/hipster.png;image/png;64964;AVAILABLE
+3;Centers Metal navigating;partnerships Infrastructure;91058;85179;../fake-data/blob/hipster.png;image/png;82822;AVAILABLE
+4;withdrawal green;Bedfordshire Lao neutral;4184;16473;../fake-data/blob/hipster.png;image/png;23281;AVAILABLE
+5;Computer CFP orange;Village;95487;35518;../fake-data/blob/hipster.png;image/png;58781;BACK_ORDER
+6;auxiliary;COM Implementation Awesome;52784;27331;../fake-data/blob/hipster.png;image/png;47574;OUT_OF_STOCK
+7;Rubber Chips;Keyboard;88935;46377;../fake-data/blob/hipster.png;image/png;5902;AVAILABLE
+8;tangible;Cheese Renminbi;33734;99001;../fake-data/blob/hipster.png;image/png;78011;OUT_OF_STOCK
+9;Underpass project hacking;Arizona mobile;44109;86012;../fake-data/blob/hipster.png;image/png;25082;BACK_ORDER
+10;Data;sticky Harbors Automotive;41021;62316;../fake-data/blob/hipster.png;image/png;4460;AVAILABLE
